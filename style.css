@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-color: rgb(67, 135, 139);
+    /* background-image: url("background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}          
+#canvas1{
+    border:5px solid black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#4d79bc;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Bangers', cursive;
+}
+#layer1,#layer2,#layer3,#layer4,#player,
+#angler1,#angler2,#lucky,#projectile,#gears,
+#SmokeExplosion,#FireExplosion,#hivewhale,#drone,
+#BulbWhale,#MoonFish,#powerup,#powerdown,#expSlosion,#shot,#shield
+,#hit,#stalker,#razorfish,#fireball,#Shield{
+    display: none;
+}
+
+#startButton{
+    margin-top: 590px;
+    margin-left: 750px;
+    width: 100px;
+    height: 50px;
+    background-color: #f44e53;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#maintext{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    color: rgb(210, 28, 28);
+    cursor: pointer;
+}

@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* background-image: url("background.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}          
+#box{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#maintext{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    color: rgb(28, 72, 217);
+    cursor: pointer;
+}
+
+.navbar{
+     height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    font-family: 'Bangers', cursive;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.element{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 120px;
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+}
+h1{
+color:rgb(11, 10, 10);
+}
+
+#first{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+#second{
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+}
+#third{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.fishwar{
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: 'Bangers', cursive;
+}
+
+.a3{
+    display: flex;
+    margin-top: 100px;
+    font-size: 100px;
+    font-family: 'Bangers', cursive;
+    width: 100%;
+    height: 600px;
+}
+.a2{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.a1{
+    margin-left: 100px;
+}
+
+.text1{
+    font-size: 25px;
+    color: blue;
+}
+
+.startButton{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: #21d855;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+    color: rgb(237, 26, 26);
+    cursor: pointer;
+}
+.startButton:hover {
+    background-color:#002ead;
+    transition: 0.7s;
+}
+
+#a4{
+    display: flex;
+    background-color: rgb(183, 252, 252);
+}
+.gameimg{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 100px;
+    height: 1dvb;
+}
+.introduction{
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.fish3{
+    margin-top: 200px;
+}
+
+#a5{
+    display: flex;
+    background-color: rgb(203, 121, 195);
+    font-family: 'Bangers', cursive;
+}
+
+.contact-title{
+    margin-left: 600px;
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+}
+#contact{
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    color: rgb(0, 0, 0);
+}
+.instruction{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px; 
+}
+.social-icons{
+    margin-top: 3px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: rgb(136, 27, 100);
+    display: inline-block;
+    transition: transforn 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form btn2{
+    padding: 14px 16px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width:100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #dfdddd;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+nav .fa-solid{
+    display: none;   
+   }

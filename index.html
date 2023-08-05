@@ -2,64 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Game</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5707efbd47.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>FishWar</title>
 </head>
 <body>
-    <canvas id="canvas1"></canvas>
-
-    <!--characters-->
-    <img id="player" src="player.png";>
-    <img id="angler1" src="angler1.png";>
-    <img id="angler2" src="angler2.png";>
-    <img id="lucky" src="lucky.png";>
-    <img id="hivewhale" src="hivewhale.png";>
-    <img id="drone" src="drone.png";>
-    <img id="stalker" src="stalker.png";>
-    <img id="razorfish" src="razorfin.png";>
-
-
-
-   
-
-    <!--props-->
-    <img id="projectile" src="projectile.png";>
-    <img id="gears" src="gears.png";>
-    <img id="SmokeExplosion" src="smokeExplosion.png";>
-    <img id="FireExplosion" src="fireExplosion.png";>
-    <img id="BulbWhale" src="bulbwhale.png";>
-    <img id="MoonFish" src="moonfish.png";>
-    <img id="Shield" src="shield.png";>
-    <img id="fireball" src="fireball.png";>
-   
-
-
-    <!--game_enviroment-->
-    <img id="layer1" src="layer1city.png";>
-    <img id="layer2" src="layer2n.png";>
-    <img id="layer3" src="layer3.png";>
-    <img id="layer4" src="layer4.png";>
-
-
-     <!--gameAudio-->
-    <audio id="powerup" src="powerup.wav"></audio>
-    <audio id="powerdown" src="powerdown.wav"></audio>
-    <audio id="explosion" src="explosion.wav"></audio>
-    <audio id="shot" src="shot.wav"></audio>
-    <audio id="hit" src="hit.wav"></audio>
-    <audio id="shield" src="shield.wav"></audio>
-
-    <div id="maintext">
-        <h1>Welcome to the Game</h1>
+    <div id="box">
+         <div class="navbar">
+        <a class="element" href="#box"><h1>Home</h1></a>
+        <a class="element"  href="#a4"><h1>About</h1></a>
+        <a class="element"  href="#a5"><h1>Instruction</h1></a> 
+        <a class="element" href="#box"><h1>Login</h1></a>
+        <a class="element"  href="#contact"><h1>Contact us</h1></a>
     </div>
-    <button onclick="window.location.reload();" id="startButton">Play Again!</button>
+    <div class="a3">
+    <div class="a1">
+    <div class="fishwar">Fish War</div>
+    <div class="text1">"Let's conquer the game and emerge victorious!"</div>
+    <button onclick="window.location.href = 'index.html';" class="startButton">Play!</button>
+    </div>
+    <div class="a2">
+    <img id="first" src="seehousre-removebg-preview.png" alt="Layer"> 
+    <img id="third" src="fireball-removebg-preview.png" alt="Layer">
+    <img id="second" src="fishA.png" alt="Layer">
+    </div>
+    </div>
+</div>
+<div id="a4">
+<div class="introduction">
+    <h2>About Game</h2><br><br><br>
+    "Enter the captivating underwater world of FishWar! Play as a brave seahorse defending<br> its home against enemy fish. <br>Swim through vibrant reefs, defeat foes with swift moves and seashell-tipped horns. <br>Collect treasures and power-ups, face a mighty boss,<br> and restore peace to the ocean in this thrilling aquatic adventure."<br><br><br>
+    As you progress, FishWar's engaging storyline unfolds, <br>revealing the true extent of the threat facing the underwater world. <br>You must gather allies, forge alliances, and prepare for an epic showdown<br> against the formidable enemy boss – a monstrous creature <br>that poses the ultimate challenge to your seahorse hero.<br><br><br>
+    With its captivating narrative, innovative gameplay mechanics,<br> and heart-pounding action, FishWar offers an unforgettable<br> gaming experience that blends excitement, strategy, and exploration.<br> Embark on this epic undersea journey, prove your valor, <br>and become the ultimate champion in the battle to restore<br> peace and harmony to the ocean depths in "FishWar."<br><br><br>
+</div>
+<div class="gameimg">
+    <img src="fishb-removebg-preview.png" alt="game">
+</div>
+
+</div>
+
+<div id="a5">
+<div class="fish3">
+    <img src="fish3-removebg-preview.png" alt="fish3">
+</div>    
+<div class="instruction">
+    <b>Instructions</b>: Defend the Seahorse<br><br><br>
+
+     <b>Goal:<br></b>
+       - Your mission is to control the seahorse and protect it from the incoming enemy fish.<br> Shoot fireballs at the enemy fish to earn points and prevent them from <br>reaching the seahorse.<br><br>
+    
+     <b>Controls:<br></b>
+       - Use the UP and DOWN arrow keys to move the seahorse up and down along the vertical axis.<br><br>
+    
+     <b>Shooting Fireballs:<br></b>
+       - Press the SPACEBAR to shoot fireballs towards the enemy fish.<br>
+       - Aim accurately to hit the enemy fish and earn points for each successful hit.<br><br>
+    
+     <b>Scoring:<br></b>
+       - You will earn points each time a fireball successfully hits an enemy fish.<br>
+       - However, be cautious, if an enemy fish collides with the seahorse, your score will decrease.<br>
+       - The game will display your current score throughout the gameplay.<br><br>
+    
+     <b>Game Over:<br></b>
+       - The game ends when the seahorse's score reaches zero or falls below zero due to enemy collisions.<br>
+       - Try to achieve the highest score possible by shooting down as many enemy fish as<br> you can without letting them touch the seahorse.<br><br>
+    
+     <b>Restart:<br></b>
+       - If you wish to play again after the game is over, simply refresh the page to restart the game.<br><br>
+    
+     <b>Good luck!<br></b>
+       - Show off your skills and protect the seahorse from the relentless enemy fish in this <br>thrilling space shoot game. Have fun and aim for the top score!<br><br><br>
+</div>
+</div>
+
+<div id="contact">
+
+        <div class="contact-left">
+            <div class="contact-title">
+            <h1 class="sub-title">Contact Us</h1>
+            <p><i class="fa-regular fa-message"></i> fishwargame@gmail.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i> 1800 78** ****</p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100057489017802"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/2k20213"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/its_ramanjha/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/raman-kumar-jha-813b1320a/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                </div>
+    <div class="copyright">
+        <p>copyright © Raman. Made By Raman Kumar Jha</p>
+</div>
 
 
-    <script src="script.js"></script>
 </body>
-</html>
+</html> 
